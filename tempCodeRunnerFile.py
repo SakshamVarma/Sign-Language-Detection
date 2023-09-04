@@ -1,0 +1,1 @@
+resized_hand = cv2.resize(cropped_hand, (28, 28))
