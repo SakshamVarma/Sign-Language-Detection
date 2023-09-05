@@ -11,7 +11,7 @@ from PIL import Image, ImageTk
 model = load_model('sign_language_model_data_aug_new3.h5')
 
 # Create a list to map predicted labels to sign language symbols
-alphabet_symbols = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+alphabet_symbols = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
                     'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
                     'U', 'V', 'W', 'X', 'Y', 'Z']
 
